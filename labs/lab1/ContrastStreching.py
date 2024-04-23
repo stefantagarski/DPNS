@@ -2,6 +2,7 @@ import numpy as np
 import cv2
 
 
+
 def interpolation(tocki):
     tocki.sort(key=lambda x: x[0])
     x_values = [p[0] for p in tocki]
